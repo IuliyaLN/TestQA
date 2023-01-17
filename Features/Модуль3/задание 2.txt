@@ -1,0 +1,15 @@
+﻿Ссылка на сборку – https://dev.irpteam.com/tc/buildConfiguration/IRP_RunVA/37514?buildTab=overview&expandPull+Request+Details=true&showRootCauses=false.
+
+
+1. Empty snippet address of the step - не был найден снипет шага Then If dialog box is visible I click "OK". Пропущено слово "button"
+2. Error calling context method (BeginPutFileToServer)
+                {Catalog.Extensions.Form.ItemForm.Form(25)}:BeginPutFileToServer(EndCall, ProgressCall, BeforeStartCall, , PutFilesDialogParameters, ThisObject.UUID);
+                
+                , reason:
+                File not found 'C:\BuildAgentThree\work\161527a3295c878a\DataProcessor\IRP_AdditionalFunctionality.cfe'. 2(0x00000002): The system cannot find the file specified.
+Система не смогла найти файл "C:\BuildAgentThree\work\161527a3295c878a\DataProcessor\IRP_AdditionalFunctionality.cfe" по указанному пути
+3. Error calling context method (StartChoosing): - у поля "Package unit" нет кнопки выбора
+4. Expected <The total amount of the "Cash transfer order" document(s) is already received on the basis of the "Bank receipt" document(s).> substring in user messages - оиждалось появление сообщения пользователю, чего не произошло
+5. Form table named <PaymentList> is not found. - в активной форме не была найдена таблица "PaymentList"
+6. One or more standard table lines are not found in the  - в таблице не найдена строка, где Количество = 500. Текущее значение было = 0.
+7. Unable to move to the required line in <List> table. - не создался элемент "Workstation 01", из-за чего список остался пустым
