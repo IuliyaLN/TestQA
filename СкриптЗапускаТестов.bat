@@ -1,0 +1,1 @@
+"C:\Program Files\1cv8\8.3.22.1750\bin\1cv8c" /N"CI" /P"CI" /TestManager /Execute "E:\Users\lym\cursScenarTest\vanessa-automation.1.2.039.1\vanessa-automation\vanessa-automation.epf" /IBConnectionString "File=""E:\Users\lym\Base\TESTCI"";" /C"StartFeaturePlayer;QuietInstallVanessaExt;VAParams=E:\Users\lym\cursScenarTest\VAParams\VAParams.json"
