@@ -1,0 +1,1 @@
+allure generate --clean ./allure-result && allure open
